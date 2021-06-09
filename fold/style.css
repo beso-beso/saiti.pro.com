@@ -1,0 +1,651 @@
+*  {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: "BPG Nino Mtavruli", sans-serif;
+    user-select: none;
+    
+    
+
+}  
+img {
+    box-shadow: 2px 2px 2px 2px black;
+}
+
+body {
+    overflow-x: hidden;
+    
+    }
+
+
+
+.buneba {
+    position: absolute;
+    width: 1366px;
+    height: 70px;
+    left: 0px;
+    top: 0px;
+    z-index: 1;
+    
+    background: #7B7B7B;
+
+
+}
+.buneba2 {
+    color: white;
+    margin-left: 500px;
+    z-index: 2;
+    position: relative;
+    margin-top: 20px;
+}
+
+.foni {
+    color:rgb(255, 255, 255);
+    font-size: 50px;
+    margin-top: 150px;
+    margin-left: 70px;
+    cursor: pointer;
+   
+}
+
+
+.menu {
+    height: 5px;
+    width: 40px;
+    background-color: rgb(255, 251, 251);
+    margin: 7px;
+
+ 
+}
+#menu {
+    position: relative;
+    z-index: 10;
+    float: right;
+    margin-right: 30px;
+    margin-top: -8px;
+    cursor: pointer;
+}
+.menu2 {
+    height: 5px;
+    width: 40px;
+    background-color: rgb(255, 255, 255);
+    margin: 7px;
+
+ 
+}
+.menu3 {
+    height: 5px;
+    width: 40px;
+    background-color: rgb(255, 255, 255);
+    margin: 7px;
+ 
+}
+
+.menubar{
+
+    position: absolute;
+    width: 302px;
+    height: 662px;
+    background:  #444343;
+    transform: translateX(-148px);
+    margin-top: -50px;
+    display: none;
+    transition: 0.5s;
+    position: fixed;
+    
+}
+
+
+.close {
+    width: 40px;
+    height: 4px;
+    background-color: white;
+    transform: rotate(60deg); 
+    margin-top: 200px;
+    cursor: pointer;
+    
+
+   
+}
+
+#close {
+    float: right;
+    transform: translateY(-185px);
+    z-index: 23;
+    position: relative;
+   visibility:hidden ;
+   cursor: pointer;
+   transition: none;
+   
+    
+}
+.close2 {
+    width: 40px;
+    background-color: white;
+    height: 4px;
+    transform: rotate(-60deg);
+    
+   
+    
+    
+    
+}
+
+#shecvla {
+    border: none;
+    transform: translateX(80px);
+    font-size: 30px;
+    cursor: pointer;
+    display: none;
+    font-weight: bold;
+    
+    
+    
+}
+#shecvla2 {
+    border: none;
+    transform: translateX(80px);
+    font-size: 30px;
+    cursor: pointer;
+    display: none;
+    font-weight: bold;
+}   
+#shecvla3 {
+    font-weight: bold;
+    border: none;
+    transform: translateX(80px);
+    font-size: 30px;
+    cursor: pointer;
+    display: none;
+}
+#shecvla4 {
+    border: none;
+    font-weight: bold;
+    display: none;
+    transform: translateX(80px);
+    font-size: 30px;
+    cursor: pointer;
+}
+#shecvla5 {
+    border: none;
+    display: none;
+    font-weight: bold;
+    transform: translateX(80px);
+    font-size: 30px;cursor: pointer;
+}
+
+#shecvla6 {
+    border: none;
+    display: none;
+    font-weight: bold;
+    transform: translateX(80px);
+    font-size: 30px;
+    cursor: pointer;
+}
+#shecvla7 {
+    border: none;
+    display: none;
+    font-weight: bold;
+    transform: translateX(80px);
+    font-size: 30px;
+    cursor: pointer;
+}
+#shecvla:hover {
+     background-color: wheat;
+}
+
+#shecvla2:hover {
+    background-color: wheat;
+}
+
+#shecvla3:hover {
+    background-color: wheat
+    
+    
+}
+
+#shecvla4:hover {
+    background-color: wheat;
+}
+
+#shecvla5:hover {
+    background-color: wheat;
+}
+
+#shecvla6:hover {
+    background-color: wheat;
+}
+
+#shecvla7:hover {
+    background-color: wheat;
+}
+
+
+.qartli {
+    position: absolute;
+width: 999px;
+height: 606px;
+left: 190px;
+top: 368px;
+
+border: 1px solid #000000;
+box-shadow: 
+}
+
+.kaxeti {
+    position: absolute;
+width: 999px;
+height: 596.1px;
+left: 190px;
+top: 1302px;
+
+background: url(კახეთი.jpg);
+border: 1px solid #000000;
+box-sizing: border-box;
+}
+
+.imereti {
+    position: absolute;
+    width: 999px;
+    height: 749.25px;
+    left: 190px;
+    top: 2174px;
+}
+.svaneti {
+    position: absolute;
+    width: 999px;
+    height: 735.59px;
+    left: 190px;
+    top: 3239px;
+}
+
+#qartli {
+   transform: translateX(550px);
+  margin-top: 200px;
+  font-size: 50px;
+
+}
+#imereti {
+    font-size: 50px;
+    transform: translateX(550px);
+    margin-top: 820px;
+}
+#kaxeti {
+    font-size: 50px;
+    transform: translateX(570px);
+    margin-top: 850px;
+}
+#svaneti {
+    font-size: 50px;
+    transform: translateX(550px);
+    margin-top: 1000px;
+}
+#beso {
+    font-size: 30px;
+    transform: translateY(900px);
+     color: #6A6A6A;
+     margin-left: 580px;
+    
+}
+
+/* aq aris responsivi<3*/
+
+@media (max-width:1308px) {
+
+    img {
+        margin-left: -60px;
+    }
+}
+@media (max-width:1204px) {
+
+    img {
+        margin-left: -120px;
+    }
+}
+@media (max-width:1073px) {
+
+    img {
+        transform: translateX(-30px);
+        
+    }
+    #qartli {
+        margin-left: -120px;
+    }
+    #imereti {
+        margin-left: -120px;
+    }
+    #kaxeti {
+        margin-left: -120px;
+    }
+    #svaneti {
+        margin-left: -120px;
+    }
+}
+
+
+@media (max-width:1044px) {
+
+    img {
+       transform: translateX(-100px);
+        
+    }
+    #qartli {
+        margin-left: -120px;
+    }
+    #imereti {
+        margin-left: -120px;
+    }
+    #kaxeti {
+        margin-left: -120px;
+    }
+    #svaneti {
+        margin-left: -120px;
+    }
+}
+
+
+@media (max-width:974px) {
+       
+    .buneba2 {
+    transform: translateX(-100px);
+    }
+    .qartli {
+        width: 900px;
+    }
+    .imereti {
+        width: 900px;
+    }
+    .kaxeti {
+        width: 900px;
+    }
+    .svaneti {
+        width: 900px;
+    }
+    
+    #qartli {
+        margin-left: -150px;
+    
+    }
+    #imereti {
+        margin-left: -150px;
+    }
+    #kaxeti {
+        margin-left: -150px;
+    }
+    #svaneti {
+        margin-left: -150px;
+    }
+}
+
+@media (max-width:890px) {
+       
+    .buneba2 {
+    transform: translateX(-100px);
+    font-size: 15px;
+    }
+    .qartli {
+        width: 850px;
+        
+    }
+    .imereti {
+        width: 850px;
+    }
+    .kaxeti {
+        width: 850px;
+    }
+    .svaneti {
+        width: 850px;
+    }
+    
+    #qartli {
+        margin-left: -150px;
+    
+    }
+    #imereti {
+        margin-left: -150px;
+    }
+    #kaxeti {
+        margin-left: -150px;
+    }
+    #svaneti {
+        margin-left: -150px;
+    }
+}
+
+@media (max-width:850px) {
+       
+    .buneba2 {
+    transform: translateX(-100px);
+    }
+    .qartli {
+        width: 810px;
+    }
+    .imereti {
+        width: 810px;
+    }
+    .kaxeti {
+        width: 810px;
+    }
+    .svaneti {
+        width: 810px;
+    }
+    .buneba {
+        height: 90px;
+    }
+    
+    #qartli {
+        margin-left: -250px;
+    
+    }
+    #imereti {
+        margin-left: -250px;
+    }
+    #kaxeti {
+        margin-left: -250px;
+    }
+    #svaneti {
+        margin-left: -250px;
+    }
+}
+
+@media (max-width:782px) {
+       
+    .buneba2 {
+    transform: translateX(-200px);
+    }
+    .qartli {
+        width: 760px;
+    }
+    .imereti {
+        width: 760px;
+    }
+    .kaxeti {
+        width: 760px;
+    }
+    .svaneti {
+        width: 760px;
+    }
+    
+    #qartli {
+        margin-left: -250px;
+    
+    }
+    #imereti {
+        margin-left: -250px;
+    }
+    #kaxeti {
+        margin-left: -250px;
+    }
+    #svaneti {
+        margin-left: -250px;
+    }
+}
+
+
+
+
+
+@media (max-width:764px) {
+       
+    .buneba2 {
+    transform: translateX(-200px);
+    margin-top: -70px;
+    }
+    #close {
+       margin-top: 100px;
+    }
+    #menu {
+        margin-top: 80px;
+    }
+    .qartli {
+        width: 740px;
+    }
+    .buneba {
+        height: 110px;
+    }
+    .imereti {
+        width: 740px;
+    }
+    .kaxeti {
+        width: 740px;
+    }
+    .svaneti {
+        width: 740px;
+    }
+    
+    #qartli {
+        margin-left: -250px;
+    
+    }
+    #imereti {
+        margin-left: -250px;
+    }
+    #kaxeti {
+        margin-left: -250px;
+    }
+    #svaneti {
+        margin-left: -250px;
+    }
+}
+
+
+
+
+@media (max-width:714px) {
+       
+    .buneba2 {
+    transform: translateX(-200px);
+    margin-top: -70px;
+    }
+    #menu {
+        margin-top: 80px;
+    }
+    .qartli {
+        width: 700px;
+    }
+    .buneba {
+        height: 110px;
+    }
+    .imereti {
+        width: 700px;
+    }
+    .kaxeti {
+        width: 700px;
+    }
+    .svaneti {
+        width: 700px;
+    }
+    
+    #qartli {
+        margin-left: -350px;
+    
+    }
+    #imereti {
+        margin-left: -350px;
+    }
+    #kaxeti {
+        margin-left: -350px;
+    }
+    #svaneti {
+        margin-left: -350px;
+    }
+}
+
+
+@media (max-width: 696px) {
+   .buneba2 {
+       font-size: 10px;
+      
+    }
+    .suratebi img{
+        width: 620px;
+        
+    }
+    
+}
+
+@media (max-width: 650px) {
+       .suratebi img {
+           width: 550px%;
+           height: 300px;
+           
+       }
+       .menu {
+           width: 70px;
+           height: 10px;
+       }
+       .menu2 {
+        width: 70px;
+        height: 10px;
+    }
+    .menu3 {
+        width: 70px;
+        height: 10px;
+    }
+
+    .buneba2 {
+        font-size: 0.5rem;
+        
+    }
+
+
+    @media (max-width: 629px){
+        .buneba2 {
+            color: black;
+            font-size: 20px;
+            
+            
+        }
+        .suratebi img {
+            width: 530px;
+           
+        }
+        
+        
+    }
+
+       .buneba {
+           height: 250px;
+       }
+}
+@media (max-width: 520px){
+   
+
+  
+}
+@media (max-width: 517px){
+    .buneba2 {
+        font-size: 1px;
+    }
+    #kaxeti {
+        visibility: hidden;
+    }
+    #imereti {
+        visibility: hidden;
+    }
+    #svaneti {
+        visibility: hidden;
+    }
+ 
+   
+ }
